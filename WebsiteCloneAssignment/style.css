@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(29, 29, 31);
+  box-sizing: content-box;
+}
+
+.navbar-list-mobile ul {
+  background-color: rgb(29, 29, 31);
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu-logo {
+  width: 20px;
+  height: 20px;
+}
+
+#apple-logo {
+  width: 20px;
+  height: 20px;
+}
+
+#shopping-bag-logo {
+  width: 20px;
+  height: 20px;
+}
+
+/* .navbar-list-desktop ul {
+  background-color: yellow;
+  backdrop-filter: saturate(1.8) blur(20px);
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px;
+  background-color: rgb(29, 29, 31);
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-size: smaller;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.p1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+}
+
+.headline {
+  color: rgb(29, 29, 31);
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+
+.subheading {
+  color: rgb(29, 29, 31);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Smallest Screen (Mobile) devices (max width 600px)*/
+@media all and (max-width: 700px) {
+  .navbar-list-desktop ul {
+    display: none;
+  }
+}
+
+/* Desktop devices (min width 992px)*/
+@media all and (min-width: 700px) {
+  .navbar-list-desktop ul {
+    backdrop-filter: saturate(1.8) blur(20px);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    background-color: rgb(29, 29, 31);
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .navbar-list-mobile ul {
+    display: none;
+  }
+}
+
+#tablet-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tablet-title h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#tablet-title p {
+  font-size: 30px;
+}

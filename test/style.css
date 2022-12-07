@@ -1,0 +1,27 @@
+* {
+  background-color: aliceblue;
+  font-size: 12px;
+}
+
+#container {
+  text-align: left;
+  margin-top: 0vh;
+}
+
+h1,
+h3,
+h4 {
+  color: green;
+}
+
+#para {
+  color: red;
+}
+
+#blob {
+  box-sizing: border-box border;
+  color: yellow;
+  padding: 100px;
+}
+
+@import url(https://fonts.google.com/specimen/Nerko+One);
